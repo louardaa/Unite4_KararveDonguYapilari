@@ -22,6 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Uyg1Activity" android:label="@string/uyg1"></activity>
+        <activity android:name=".Uyg2Activity" android:label="@string/uyg2"></activity>
+
     </application>
 
 </manifest>

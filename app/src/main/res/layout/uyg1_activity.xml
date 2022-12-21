@@ -5,26 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
+    <Button
+        android:id="@+id/uyg1btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="89dp"
-        android:layout_marginTop="37dp"
+        android:layout_marginTop="21dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="@+id/uyg1edittxt"
+        app:layout_constraintStart_toStartOf="@+id/uyg1edittxt"
+        app:layout_constraintTop_toBottomOf="@+id/uyg1edittxt" />
+
+    <EditText
+        android:id="@+id/uyg1edittxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="28dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="            Sayı Giriniz"
+        android:inputType="numberSigned"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
-        app:layout_constraintHorizontal_bias="0.474"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 </androidx.constraintlayout.widget.ConstraintLayout>
