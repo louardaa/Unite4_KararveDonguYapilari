@@ -9,7 +9,6 @@ import android.view.View;
 public class MainActivity extends AppCompatActivity {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,4 +24,22 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, Uyg2Activity.class);
         startActivity(i);
     }
+
+    public void btnUyg3(View view) {
+        Intent i = new Intent(MainActivity.this, Uyg3Activity.class);
+        startActivity(i);
+    }
+    public void btnUyg4(View view) {
+        Intent i = new Intent(MainActivity.this, Uyg4Activity.class);
+        startActivity(i);
+    }
+    public void btnUyg7(View view) {
+        Intent i = new Intent(MainActivity.this, Uyg7Activity.class);
+        startActivity(i);
+    }
+    public void btnUyg8(View view) {
+        Intent i = new Intent(MainActivity.this, Uyg8Activity.class);
+        startActivity(i);
+    }
+
 }
