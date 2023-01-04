@@ -16,17 +16,25 @@ public class Uyg7Activity extends AppCompatActivity {
     }
 
     protected void onResume() {
-
+        int sonuc;
         super.onResume();
         for (int i = 0; i <= 10; i++) {
             System.out.println(i);
+            sonuc = i;
+            switch (sonuc) {
+                case 1:
+                    i = i * 1;
+                    break;
 
 
+            }
         }
-
-
     }
 }
+
+
+
+
 
 
 

@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Uyg3Activity extends AppCompatActivity {
+public class  Uyg3Activity extends AppCompatActivity {
 
     EditText editText_KullaniciAdi, editText_Sifresi;
     Button button_Onayla;
