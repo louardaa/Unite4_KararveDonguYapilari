@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView_Sonuc"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="68dp"
@@ -26,7 +26,7 @@
         android:text="2.Sayı"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_Sonuc" />
 
     <EditText
         android:id="@+id/sayi1"
@@ -40,7 +40,7 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView_Sonuc"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
@@ -53,7 +53,7 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="@+id/sayi1"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_Sonuc" />
 
     <Button
         android:id="@+id/kontrol"
