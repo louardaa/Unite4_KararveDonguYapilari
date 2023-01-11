@@ -6,48 +6,51 @@
     android:layout_height="match_parent">
 
     <Switch
+        android:id="@+id/KonumAl"
+        android:layout_width="335dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="4dp"
+        android:minHeight="48dp"
+        android:text="KonumAl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/KonumGonder" />
+
+    <Switch
         android:id="@+id/KonumServisi"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="38dp"
-        android:layout_marginEnd="64dp"
-        android:layout_marginBottom="24dp"
-        android:checked="false"
-        android:text="Konum Servisleri"
-        app:layout_constraintBottom_toTopOf="@+id/KonumAl"
+        android:layout_width="315dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="57dp"
+        android:minHeight="48dp"
+        android:text="KonumServisleri"
+        app:layout_constraintBottom_toTopOf="@+id/KonumGonder"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Switch
-        android:id="@+id/KonumGonder"
-        android:layout_width="283dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="521dp"
-        android:text="Konum Bilgilerini Gönder"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <Button
+        android:id="@+id/btnOnayla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:onClick="btnOnayla"
+        android:text="Onayla"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/KonumAl" />
 
     <Switch
-        android:id="@+id/KonumAl"
+        android:id="@+id/KonumGonder"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="16dp"
-        android:text="Konum Bilgilerini Al"
-        app:layout_constraintBottom_toTopOf="@+id/KonumGonder"
-        app:layout_constraintEnd_toEndOf="@+id/KonumGonder"
-        app:layout_constraintStart_toStartOf="@+id/KonumGonder"
-        app:layout_constraintTop_toBottomOf="@+id/KonumServisi" />
+        android:layout_height="48dp"
+        android:layout_marginBottom="13dp"
+        android:minHeight="48dp"
+        android:text="KonumGonder"
+        app:layout_constraintBottom_toTopOf="@+id/KonumAl"
+        app:layout_constraintEnd_toEndOf="@+id/KonumAl"
+        app:layout_constraintStart_toStartOf="@+id/KonumAl" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="Onayla"
-        android:text="onayla"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="330dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
